@@ -1,10 +1,14 @@
-##Proyecto final - Documento de análisis
+Proyecto final - Documento de análisis
 
-##Descripción del proyecto:
+Descripción del proyecto:
 
-Problema: El aprendizaje de conceptos de astronomía (órbitas, composición planetaria, distancias), ya que a menudo el aprender sobre esto es abstracto y se encuentran sitios muy poco interactivos, lo que genera una poca retentiva de esta información. Se identifica una necesidad clara de una herramienta o aplicativo interactivo que convierta la complejidad científica en experiencias de aprendizaje útiles y dinámicas para cada uno de sus usuarios.
+Problema: 
 
-Propósito del proyecto: Desarrollar un juego o aplicación educativa e interactiva de escritorio que ayude al usuario por medio de misiones interplanetarias guiadas a aprender sobre astronomía y poner a prueba el conocimiento del usuario mediante retos específicos.
+El aprendizaje de conceptos de astronomía (órbitas, composición planetaria, distancias), ya que a menudo el aprender sobre esto es abstracto y se encuentran sitios muy poco interactivos, lo que genera una poca retentiva de esta información. Se identifica una necesidad clara de una herramienta o aplicativo interactivo que convierta la complejidad científica en experiencias de aprendizaje útiles y dinámicas para cada uno de sus usuarios.
+
+Propósito del proyecto: 
+
+Desarrollar un juego o aplicación educativa e interactiva de escritorio que ayude al usuario por medio de misiones interplanetarias guiadas a aprender sobre astronomía y poner a prueba el conocimiento del usuario mediante retos específicos.
 El sistema se encargará de:
 -Tener una base de datos de usuarios.
 -Presentar secuencias de misiones guiadas, enfocadas en planetas o fenómenos específicos (ej. Misiones a Marte, cinturón de asteroides, constelaciones, cuerpos celestes etc).
@@ -18,7 +22,9 @@ Usuarios:
 - Administrador o desarrollador: Este es el encargado de mantener en constante actualización las distintas pruebas o bases de datos de la la aplicación. Tiene acceso especial en el sistema ya que puede realizar distintos CRUD para actualizar y mejorar constantemente la app.
 
 
-##Reglas de negocio:
+Reglas de negocio:
+
+
 -Registro Único: En el sistema no pueden haber 2 usuarios con la misma información, esto para garantizar que el registro sea único. Si el nombre ya existe en la base de datos, se debe denegar la creación de la cuenta y mostrar un mensaje de error.
 -Validación de Credenciales o de campos null: En el formulario de Registro, ningún campo puede estar vacío. Se debe mostrar un mensaje de retroalimentación del error.
 -Restricción de contraseña: La contraseña de un usuario debe tener una longitud mínima de 8 caracteres para ser aceptada durante el registro, esto para asegurar que sea una clave segura.
