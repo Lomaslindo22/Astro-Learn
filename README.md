@@ -43,6 +43,14 @@ Reglas de negocio:
 
 -Validación de Tipos de Datos: En los formularios de ingreso de información (ej. ingreso de un puntaje o un ID), se debe validar que el dato ingresado sea del tipo esperado de lo contrario se mostrará un mensaje de error junto con la explicación de la falla.
 
+Funcionalidades:
+
+-El sistema no permitirá ingresar un objeto astronómico (Constelación, Planeta, Cuerpo celeste etc) si este no tiene por lo menos 3 datos científicos corroborables, esto debido a que el propósito de la aplicación es enseñar acerca de astronomía en base a distintos argumentos científicos con la mayor cantidad de datos posibles.
+
+-Un correo electrónico solo puede estar asignado a una sola cuenta de usuario, ya que cuando un usuario en el proceso de registro intenta ingresar un correo electrónico asignado a una cuenta existente el sistema le arrojará error.
+
+
 -Feedback de Operación: Después de cualquier acción que involucre el guardado, actualización o eliminación de datos (incluso simulado con listas en este entregable), la aplicación debe mostrar un mensaje de confirmación o error al usuario.
+
 
 
