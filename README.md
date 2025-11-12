@@ -26,14 +26,23 @@ Reglas de negocio:
 
 
 -Registro Único: En el sistema no pueden haber 2 usuarios con la misma información, esto para garantizar que el registro sea único. Si el nombre ya existe en la base de datos, se debe denegar la creación de la cuenta y mostrar un mensaje de error.
+
 -Validación de Credenciales o de campos null: En el formulario de Registro, ningún campo puede estar vacío. Se debe mostrar un mensaje de retroalimentación del error.
+
 -Restricción de contraseña: La contraseña de un usuario debe tener una longitud mínima de 8 caracteres para ser aceptada durante el registro, esto para asegurar que sea una clave segura.
+
 -Secuencia de Misión Obligatoria: Un usuario solo puede acceder o iniciar una misión o reto si el reto/misión anterior está marcada como Completada en su registro de progreso.
+
 -Requisito de Misión/Reto: Una Misión/Reto completa solo se puede marcar como Completada si el usuario ha superado exitosamente el 100% del contenido del mismo, de lo contrario quedará como en progreso.
+
 -Guardado de Progreso: El registro de la superación de una Misión/Reto debe ser guardado inmediatamente en la base de datos al finalizar exitosamente.
+
 -Integridad de Datos astronómicos: Cada Planeta, constelación, etc  en la base de datos debe tener definidos al menos tres atributos científicos obligatorios. El sistema no podrá crear un objeto (a través del Factory) si estos datos esenciales están ausentes.
+
 -Asignación de Dificultad: Toda Misión/Reto debe estar obligatoriamente asociado a un nivel de Dificultad (ej. Básico, Intermedio, Avanzado).
+
 -Validación de Tipos de Datos: En los formularios de ingreso de información (ej. ingreso de un puntaje o un ID), se debe validar que el dato ingresado sea del tipo esperado de lo contrario se mostrará un mensaje de error junto con la explicación de la falla.
+
 -Feedback de Operación: Después de cualquier acción que involucre el guardado, actualización o eliminación de datos (incluso simulado con listas en este entregable), la aplicación debe mostrar un mensaje de confirmación o error al usuario.
 
 
